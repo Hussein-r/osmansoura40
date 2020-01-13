@@ -38,6 +38,21 @@ public class UI2Controller implements Initializable {
     Stage stage;
     @FXML
     Parent root;
+ /*   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   */ 
+    
     @FXML
     private TextField nametextfield;
     @FXML
