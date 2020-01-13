@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.UI7Controller">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="400.0" stroke="BLACK" strokeType="INSIDE" width="600.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ff2530" />
+                        <Stop color="#364cbc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Button fx:id="rematch" layoutX="205.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="30.0" prefWidth="191.0" text="Rematch ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="205.0" layoutY="305.0" mnemonicParsing="false" onAction="#handleButtonAction2" prefHeight="30.0" prefWidth="191.0" text="Exit">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <MediaView fx:id="mv" fitHeight="200.0" fitWidth="200.0" layoutX="200.0" layoutY="36.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
