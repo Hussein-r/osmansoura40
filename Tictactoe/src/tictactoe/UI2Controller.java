@@ -80,7 +80,7 @@ public class UI2Controller implements Initializable {
 
         }
         else
-            JOptionPane.showMessageDialog(null, "Invalid email or password", "alert", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Invalid usermshname or password", "alert", JOptionPane.ERROR_MESSAGE);
 
         
             
